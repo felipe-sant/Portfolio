@@ -98,9 +98,14 @@
 }
 
 .mainHome article.projetos section.projetos {
-    border: 2px solid green;
+    padding: 40px;
     min-height: 400px;
     max-height: auto;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
 }
 
 @media screen and (max-width: 1000px) {

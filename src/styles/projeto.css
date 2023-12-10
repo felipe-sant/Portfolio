@@ -1,0 +1,59 @@
+div.projeto {
+    background-color: white;
+    border: 2px solid var(--roxo);
+    border-radius: 20px;
+
+    width: 400px;
+    height: 230px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    margin: 10px;
+    padding: 25px;
+
+    font-family: var(--fonte);
+    position: relative;
+}
+
+div.projeto h3 {
+    font-size: 1.1em;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+div.projeto p {
+    font-size: 0.8em;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 22px;
+    text-shadow: 1px 1px 5px hsla(0, 0%, 0%, 0.2);
+}
+
+div.projeto img {
+    position: absolute;
+    height: 23px;
+    border-radius: 5px;
+    bottom: 22px;
+    left: 25px;
+}
+
+div.projeto a {
+    align-self: flex-end;
+    font-family: var(--fonte);
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.2s ease-in-out; 
+}
+
+div.projeto a:hover {
+    font-weight: 700;
+}
+
+div.projeto strong {
+    color: var(--roxo_sombra);
+    font-weight: 900;
+    text-shadow: none;
+}
