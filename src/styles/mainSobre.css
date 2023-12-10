@@ -1,0 +1,67 @@
+.mainSobre article.sobreMim{
+    max-width: 700px;
+    min-width: none;
+    min-height: calc(100vh - 144px);
+
+    margin: auto;
+    padding: 40px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    text-align: center;
+    font-family: var(--fonte);
+    font-size: 1.1rem;
+    line-height: 1.6rem;
+}
+
+.mainSobre article.sobreMim hr {
+    border: 1px solid #202020;
+    width: 60px;
+    margin-bottom: 20px;
+}
+
+.mainSobre article.sobreMim p {
+    font-weight: 300;
+}
+
+.mainSobre hr {
+    width: 800px;
+    margin: 40px auto;
+}
+
+.mainSobre article.conhecimentos {
+    max-width: 800px;
+    min-width: none;
+    max-height: auto;
+    min-height: 400px;
+    
+    margin: auto;
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    font-family: var(--fonte);
+    font-size: 1rem;
+    line-height: 25px;
+}
+
+.mainSobre article.conhecimentos h2 {
+    font-weight: 600;
+}
+
+.mainSobre article.conhecimentos h2::before {
+    content: "| ";
+    font-weight: 200;
+    font-size: 1.6rem;
+}
+
+.mainSobre article.conhecimentos section.conhecimentos {
+    border: 2px solid blue;
+    min-height: 400px;
+}
