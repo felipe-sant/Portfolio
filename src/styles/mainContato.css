@@ -1,0 +1,157 @@
+.mainContato article.contato {
+    min-height: calc(100vh - 72px);
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainContato article.contato h2 {
+    font-size: 1.8rem;
+    font-family: var(--fonte);
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.mainContato article.contato section.contato {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+.mainContato article.contato section.contato section.redeSociais {
+    width: 500px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding-left: 40px;
+    padding-bottom: 120px;
+}
+
+.mainContato article.contato section.contato section.redeSociais h3 {
+    font-size: 1.4rem;
+    font-family: var(--fonte);
+    font-weight: 500;
+}
+
+.mainContato article.contato section.contato section.redeSociais h3::before {
+    content: "| ";
+    font-weight: 200;
+}
+
+.mainContato article.contato section.contato section.redeSociais ul {
+    list-style: none;
+}
+
+.mainContato article.contato section.contato section.redeSociais ul li {
+    font-size: 1.1rem;
+    font-family: var(--fonte);
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+
+.mainContato article.contato section.contato section.email {
+    background-color: var(--roxo);
+    border-radius: 20px;
+    width: 400px;
+    height: 450px;
+    padding: 35px;
+}
+
+.mainContato article.contato section.contato section.email h3 {
+    text-align: center;
+    font-size: 1.4rem;
+    font-family: var(--fonte);
+    font-weight: 600;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.mainContato article.contato section.contato section.email form {
+    height: calc(100% - 70px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.mainContato article.contato section.contato section.email form input {
+    width: 100%;
+    height: 40px;
+    width: 250px;
+    border-radius: 10px;
+    border: 2px solid var(--roxo_sombra);
+    padding-left: 10px;
+    font-size: 0.9rem;
+    font-family: var(--fonte);
+}
+
+.mainContato article.contato section.contato section.email form textarea {
+    width: 100%;
+    height: 150px;
+    width: 250px;
+    border-radius: 10px;
+    border: 2px solid var(--roxo_sombra);
+    padding: 10px;
+    font-size: 0.9rem;
+    font-family: var(--fonte);
+}
+
+.mainContato article.contato section.contato section.email form button {
+    width: 100%;
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    border: none;
+    background-color: var(--roxo_sombra);
+    color: white;
+    font-size: 1rem;
+    font-family: var(--fonte);
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/* ------------------------ */
+
+@media screen and (max-width: 1200px) {
+    .mainContato article.contato {
+        padding: 0px;
+    }
+
+    .mainContato article.contato section.contato {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .mainContato article.contato section.contato section.redeSociais {
+        width: 70%;
+        height: 400px;
+    }
+
+    .mainContato article.contato section.contato section.email {
+        width: 100%;
+        height: 450px;
+        border-radius: 0px;
+    }
+    
+    .mainContato article.contato section.contato section.email {
+        
+        padding: 80px;
+    }
+
+}
