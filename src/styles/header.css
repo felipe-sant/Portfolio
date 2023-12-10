@@ -1,0 +1,55 @@
+Header {
+    background-color: var(--roxo);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: var(--fonte);
+    box-shadow: 1px 0px 5px hsla(0, 0%, 0%, 0.8);
+    height: 72px;
+}
+
+header a {
+    text-decoration: none;
+    color: var(--cinza);
+    transition: all 0.2s ease-in-out;
+}
+
+header .logo {
+    width: 190px;
+}
+
+header .logo a {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 10px;
+}
+
+header .logo a:hover h1 {
+    font-weight: 600;
+}
+
+header .logo a h1 {
+    font-weight: 400;
+    font-size: 1em;
+    transition: all 0.2s ease-in-out;
+}
+
+header .menu {
+    padding-right: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 240px;
+}
+
+header .menu a {
+    font-size: 1em;
+    color: var(--cinza);
+}
+
+header .menu a:hover {
+    font-weight: 600;
+}

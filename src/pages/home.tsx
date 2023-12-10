@@ -1,9 +1,10 @@
+import Header from "../components/header";
+
 function HomePage() {
   return (
     <div>
-      <a href="/">Inicio</a> <br />
-      <a href="/sobre">Sobre</a> <br />
-      <a href="/contato">Contato</a> <br />
+      <Header />
+      <h1>Home</h1>
     </div>
   );
 }
