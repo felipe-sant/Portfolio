@@ -1,0 +1,10 @@
+.main {
+    border: 1px solid red;
+
+    max-width: 1400px;
+    min-width: none;
+    min-height: calc(100vh - 72px);
+    max-height: auto;
+
+    margin: auto;
+}

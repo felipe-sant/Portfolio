@@ -4,7 +4,9 @@ function ContatoPage() {
     return (
         <div>
             <Header />
-            <h1>Contato</h1>
+            <main className="main mainContato">
+                <p>contato</p>
+            </main>
         </div>
     )
 }

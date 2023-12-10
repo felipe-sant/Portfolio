@@ -1,5 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./styles/global.css";
+import "./styles/main.css";
 import HomePage from "./pages/home";
 import SobrePage from "./pages/sobre";
 import ContatoPage from "./pages/contato";
