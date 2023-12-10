@@ -1,3 +1,4 @@
+import Footer from "../components/footer";
 import Header from "../components/header";
 import "../styles/mainSobre.css";
 
@@ -17,10 +18,11 @@ function SobrePage() {
                 <article className="conhecimentos">
                     <h2>Conhecimentos</h2>
                     <section className="conhecimentos">
-
+        
                     </section>
                 </article>
             </div>
+            <Footer />
         </div>
     )
 }

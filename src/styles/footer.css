@@ -1,0 +1,18 @@
+footer {
+    background-color: var(--roxo);
+    color: var(--cinza);
+    margin-top: 40px;
+    padding: 7px;
+}
+
+footer p {
+    text-align: center;
+    font-family: var(--fonte);
+    font-size: 1em;
+}
+
+footer p a {
+    color: var(--cinza);
+    text-decoration: none;
+    font-weight: 700;
+}

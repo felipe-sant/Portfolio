@@ -74,7 +74,6 @@
 }
 
 .mainHome article.projetos {
-    border: 2px solid yellow;
     margin: auto;
 
     max-width: 1000px;
@@ -84,9 +83,18 @@
 }
 
 .mainHome article.projetos section.titulo {
-    border: 2px solid orange;
     height: 60px;
     margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainHome article.projetos section.titulo h2 {
+    text-align: center;
+    font-family: var(--fonte);
+    font-size: 1.6em;
+    font-weight: 600;
 }
 
 .mainHome article.projetos section.projetos {

@@ -1,3 +1,4 @@
+import Footer from "../components/footer";
 import Header from "../components/header";
 import "../styles/mainContato.css";
 
@@ -30,6 +31,7 @@ function ContatoPage() {
                     </section>
                 </article>
             </main>
+            <Footer />
         </div>
     )
 }

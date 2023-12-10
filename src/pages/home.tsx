@@ -1,3 +1,4 @@
+import Footer from "../components/footer";
 import Header from "../components/header";
 import "../styles/mainHome.css";
 
@@ -18,13 +19,14 @@ function HomePage() {
         </article>
         <article className="projetos">
           <section className="titulo">
-
+            <h2>Meus Projetos</h2>
           </section>
           <section className="projetos">
-
+            
           </section>
         </article>
       </main>
+      <Footer />
     </div>
   );
 }
