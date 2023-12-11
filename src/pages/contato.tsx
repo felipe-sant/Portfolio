@@ -14,9 +14,24 @@ function ContatoPage() {
                         <section className="redeSociais">
                             <h3>Redes Sociais</h3>
                             <ul>
-                                <li>Instagram</li>
-                                <li>Github</li>
-                                <li>Linkedin</li>
+                                <li>
+                                    <a target="_blank" href="https://www.instagram.com/tren.felipe/">
+                                        <img src="/images/instagram_mark.png" alt="instagram logo" />
+                                        Instagram
+                                    </a>
+                                </li>
+                                <li>
+                                    <a target="_blank" href="https://github.com/felipe-sant">
+                                        <img src="/images/github_mark.png" alt="github logo" />
+                                        Github
+                                    </a>
+                                </li>
+                                <li>
+                                    <a target="_blank" href="https://www.linkedin.com/in/lfelipesant/">
+                                        <img src="/images/linkedin_mark.png" alt="linkedin logo" />
+                                        Linkedin
+                                    </a>
+                                </li>
                             </ul>
                         </section>
                         <section className="email">

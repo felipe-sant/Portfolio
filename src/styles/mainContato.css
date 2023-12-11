@@ -59,6 +59,24 @@
     margin-bottom: 10px;
 }
 
+.mainContato article.contato section.contato section.redeSociais ul li a {
+    text-decoration: none;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    width: 150px;
+}
+
+.mainContato article.contato section.contato section.redeSociais ul li a img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.mainContato article.contato section.contato section.redeSociais ul li a:hover {
+    text-decoration: underline;
+}
+
 .mainContato article.contato section.contato section.email {
     background-color: var(--roxo);
     border-radius: 20px;
