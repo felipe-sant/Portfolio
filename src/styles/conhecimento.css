@@ -1,0 +1,41 @@
+.conhecimento {
+    background-color: white;
+    border: 2px solid var(--roxo);
+    border-radius: 10px;
+
+    margin-left: 10px;
+    margin-right: 10px;
+    max-width: 450px;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.conhecimento .imagem {
+    width: 80px;
+    height: 80px;
+    display: grid;
+    place-items: center;
+    border-right: 2px solid var(--roxo);
+}
+
+.conhecimento .imagem img {
+    height: 40px;
+}
+
+.conhecimento .informacoes {
+    padding: 5px 10px;
+    height: 80px;
+    width: calc(100% - 64px);
+}
+
+.conhecimento .informacoes h4 {
+    font-size: 0.9em;
+    font-weight: 600;
+}
+
+.conhecimento .informacoes p {
+    font-size: 0.8em;
+    font-weight: 300;
+    line-height: 1.3em;
+}

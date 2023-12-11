@@ -34,7 +34,7 @@
 }
 
 .mainSobre article.conhecimentos {
-    max-width: 800px;
+    max-width: 510px;
     min-width: none;
     max-height: auto;
     min-height: 400px;
@@ -53,6 +53,7 @@
 
 .mainSobre article.conhecimentos h2 {
     font-weight: 600;
+    margin-bottom: 20px;
 }
 
 .mainSobre article.conhecimentos h2::before {
@@ -62,6 +63,9 @@
 }
 
 .mainSobre article.conhecimentos section.conhecimentos {
-    border: 2px solid blue;
     min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
 }
