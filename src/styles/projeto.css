@@ -4,7 +4,8 @@ div.projeto {
     border-radius: 20px;
 
     width: 400px;
-    height: 230px;
+    min-height: 230px;
+    max-height: auto;
 
     display: flex;
     flex-direction: column;
@@ -21,7 +22,7 @@ div.projeto h3 {
     font-size: 1.1em;
     font-weight: 600;
     text-align: center;
-    padding-bottom: 5px;
+    padding-bottom: 1rem;
 }
 
 div.projeto p {
@@ -30,6 +31,7 @@ div.projeto p {
     text-indent: 30px;
     line-height: 22px;
     text-shadow: 1px 1px 5px hsla(0, 0%, 0%, 0.2);
+    margin-bottom: 1rem;
 }
 
 div.projeto img {

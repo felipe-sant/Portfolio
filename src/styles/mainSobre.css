@@ -29,7 +29,8 @@
 }
 
 .mainSobre hr {
-    width: 800px;
+    max-width: 800px;
+    min-width: none;
     margin: 40px auto;
 }
 
