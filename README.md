@@ -11,7 +11,7 @@
 
 Olá, meu nome é Luiz Felipe, mas pode me chamar só de Felipe, nesse repositório você poderá acessar o meu portfólio pessoal que fala sobre mim, meus conhecimentos e informações para entrar em contato.
 
-> [**Acesse a aplicação por aqui!**]()
+> [**Acesse meu portfílio por aqui!**](https://portfolio-felipe-sant.vercel.app/)
 
 ## ⚙️ Como rodar localmente:
 
@@ -32,11 +32,11 @@ npm start
 
 ## 📄 Descrição do Projeto:
 
-Na pasta [doc/](doc/) há os aquivos de documentação do projeto, havendo os arquivos:
+Na pasta [public/](public/) há os arquivos publicos do projeto, havendo as pastas:
 
-- [wireframe.pdf](doc/wireframe.pdf), arquivo pdf do wireframe do projeto, contendo tanto a versão em desktop quanto a versão em mobile das telas.
+- [public/images/](public/images/), contém os arquivos de imagem que são utilizadas na aplicação.
 
 Na pasta [src/](src/) há os arquivos de source, havendo as pastas:
-- [static/](api/static/), contendo arquivos estaticos, como imagens e páginas de estilo.
-- [templates/](api/templates/), contendo os arquivos de templates das páginas.
-- [app.py](api/app.py), sendo o arquivo de aplicação, onde é utilizado o Flask com um sistema de templates para imprimir a página HTML.
+- [src/components/](src/components/), contendo arquivos de componentes para renderização da aplicação, como header e o footer.
+- [src/pages/](src/pages/), contendo os arquivos de renderezição das páginas.
+- [src/styles/](src/styles/), contendo os arquivos de estilização do projeto.
