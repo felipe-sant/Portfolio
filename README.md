@@ -13,6 +13,17 @@ Olá, meu nome é Luiz Felipe, mas pode me chamar só de Felipe, nesse repositó
 
 > [**Acesse meu portfílio por aqui!**](https://portfolio-felipe-sant.vercel.app/)
 
+## 📄 Descrição do Projeto:
+
+Na pasta [public/](public/) há os arquivos publicos do projeto, havendo as pastas:
+
+- [public/images/](public/images/), contém os arquivos de imagem que são utilizadas na aplicação.
+
+Na pasta [src/](src/) há os arquivos de source, havendo as pastas:
+- [src/components/](src/components/), contendo arquivos de componentes para renderização da aplicação, como header e o footer.
+- [src/pages/](src/pages/), contendo os arquivos de renderezição das páginas.
+- [src/styles/](src/styles/), contendo os arquivos de estilização do projeto.
+
 ## ⚙️ Como rodar localmente:
 
 1. Abra o CMD no local que deseja clonar o repositório e execute este comando:
@@ -29,14 +40,3 @@ npm start
 ```
 
 3. Após isso, abra o seguinte link no navegador de sua preferência: http://127.0.0.1:3000
-
-## 📄 Descrição do Projeto:
-
-Na pasta [public/](public/) há os arquivos publicos do projeto, havendo as pastas:
-
-- [public/images/](public/images/), contém os arquivos de imagem que são utilizadas na aplicação.
-
-Na pasta [src/](src/) há os arquivos de source, havendo as pastas:
-- [src/components/](src/components/), contendo arquivos de componentes para renderização da aplicação, como header e o footer.
-- [src/pages/](src/pages/), contendo os arquivos de renderezição das páginas.
-- [src/styles/](src/styles/), contendo os arquivos de estilização do projeto.
