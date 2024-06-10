@@ -1,17 +1,16 @@
 import "../styles/conhecimento.css"
+import { ConhecimentoProps } from "../types/conhecimentoProps"
 
-function Conhecimento(props: any) {
-    const conhecimento = props.conhecimento
-
+function Conhecimento(props: ConhecimentoProps) {
     return (
         <div className="conhecimento">
             <div className="imagem">
-                <img src={conhecimento.imagem} alt="" />
+                <img src={props.imagem} alt="" />
             </div>
             <div className="informacoes">
-                <h4>{conhecimento.nome}</h4>
+                <h4>{props.nome}</h4>
                 <p>
-                    {conhecimento.descricao}
+                    {props.descricao}
                 </p>
             </div>
         </div>
